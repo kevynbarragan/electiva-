@@ -9,7 +9,7 @@ El sistema buscará identificar patrones de comportamiento, como productos visit
 ## Integrantes
 
 - Integrante 1: [Jhon Kevyn Barragan Vasquez]
-- Integrante 2: [Nombre completo]
+- Integrante 2: [Elian]
 
 ## Programa académico
 
@@ -21,11 +21,11 @@ Corporación Universitaria Minuto de Dios - UNIMINUTO
 
 ## Duración estimada
 
-2 semanas efectivas de desarrollo.
+12 semanas efectivas de desarrollo.
 
 ## Preguntas de viabilidad
 
-1. ¿Podemos conseguir y preparar, dentro de las 2 semanas efectivas, un conjunto de datos real o simulado que contenga suficiente información de navegación (páginas visitadas, duración, clics, productos vistos, carrito, etc.) y una variable objetivo que permita determinar si hubo intención de compra?
+1. ¿Podemos conseguir y preparar, dentro de las 12 semanas efectivas, un conjunto de datos real o simulado que contenga suficiente información de navegación (páginas visitadas, duración, clics, productos vistos, carrito, etc.) y una variable objetivo que permita determinar si hubo intención de compra?
 
 2. ¿Qué características mínimas debe tener el sistema para que el análisis de intención de compra sea demostrable en este semestre, y cuáles funcionalidades podemos eliminar sin afectar el objetivo principal del proyecto?
 
