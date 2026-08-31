@@ -71,7 +71,7 @@ Responsabilidades principales:
 
 ### Jonathan Smith Bohorquez
 
-**ID:** Pendiente de registrar
+**ID:** 1045541
 **Rol:** Análisis de datos y Machine Learning
 
 Responsabilidades principales:
