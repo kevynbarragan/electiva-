@@ -284,3 +284,65 @@ EJEMPLO DEL NIVEL ESPERADO (de un dominio distinto, solo como referencia de estr
 Un sistema de gestión de inventario en una bodega puede generar registros de entradas y salidas de productos, pero sin un mecanismo de análisis estructurado, esos registros no se traducen en alertas claras sobre quiebres de stock.
 ## 4. Propuesta de valor
 [Redactar una propuesta concreta basada únicamente en el contexto proporcionado, con redacción original.]
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+PROMPT 03 — EVALUACIÓN Y MEJORA DEL PROMPT
+
+Actúa como experto en Prompt Engineering para proyectos de software.
+
+CONTEXTO:
+Estamos desarrollando un proyecto académico de Ingeniería de Sistemas en UNIMINUTO Ibagué.
+
+Nuestro proyecto es una aplicación web que analiza la intención de compra en una tienda virtual a partir del comportamiento de navegación de los usuarios.
+
+El prompt que vas a evaluar será utilizado para obtener resultados relacionados con este proyecto.
+
+TAREA:
+Evalúa el prompt delimitado entre ### utilizando exactamente los 6 componentes de un prompt profesional:
+
+1. Rol
+2. Contexto
+3. Tarea
+4. Formato
+5. Restricciones
+6. Ejemplos
+
+CALIFICA cada componente con:
+- 0 = ausente o inútil
+- 1 = presente y útil
+
+FORMATO:
+Entrega:
+
+### Evaluación
+
+| Componente | Puntuación (0-1) | ¿Está bien definido? | Mejora necesaria |
+|---|---:|---|---|
+
+**Puntuación total:** X/6
+
+### Problemas principales
+Máximo 5 puntos.
+
+### Prompt mejorado
+Devuelve el prompt completo, listo para copiar y pegar.
+
+### Cambios realizados
+Máximo 3 líneas.
+
+RESTRICCIONES:
+- No ejecutes el prompt original.
+- No cambies el objetivo de la tarea.
+- No agregues funcionalidades que no pertenezcan al proyecto.
+- No hagas el prompt innecesariamente largo.
+- Mantén el contexto suficiente para que otra IA pueda ejecutarlo correctamente.
+- Si un componente ya está bien construido, consérvalo.
+- Prioriza claridad y precisión sobre longitud.
+
+EJEMPLO DE CRITERIO:
+Un prompt que diga solamente "analiza mi proyecto" tendría una puntuación baja porque no define claramente rol, tarea, formato ni restricciones.
+
+###
+[PEGAR AQUÍ EL PROMPT A EVALUAR]
+###
