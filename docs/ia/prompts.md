@@ -346,3 +346,66 @@ Un prompt que diga solamente "analiza mi proyecto" tendría una puntuación baja
 ###
 [PEGAR AQUÍ EL PROMPT A EVALUAR]
 ###
+Evaluación
+Componente	Puntuación (0-1)	¿Está bien definido?	Mejora necesaria
+Rol	1	Sí. Define un rol específico (analista de negocios y de productos digitales senior, en e-commerce), coherente con la tarea de análisis competitivo.	Ninguna relevante.
+Contexto	1	Sí. Explica equipo, plazo, objetivo del proyecto, variables de análisis y alcance del MVP con suficiente detalle para que otra IA entienda el dominio.	Podría acotar aún más el foco ("comportamiento de navegación pre-compra") para evitar desviaciones hacia analítica general de e-commerce.
+Tarea	1	Sí. Pide explícitamente un análisis competitivo de 3 soluciones relacionadas con comportamiento de usuario/intención de compra.	Podría aclarar qué tipo de soluciones priorizar (académicas, comerciales, open source) para acotar la búsqueda.
+Formato	1	Sí. Especifica columnas exactas de la tabla y estructura de las secciones posteriores (diferencias, oportunidades, riesgos).	Falta indicar extensión máxima del texto fuera de la tabla, para evitar respuestas demasiado largas.
+Restricciones	1	Sí. Lista clara de 8 restricciones (verificabilidad, fuentes, alcance funcional, no marketing/precios).	Se pueden consolidar restricciones redundantes y añadir un límite de antigüedad de las fuentes (p. ej. últimos 3-5 años).
+Ejemplos	1	Presente y útil, pero incompleto: solo muestra 3 de las 7 columnas requeridas, lo que puede generar ambigüedad sobre el nivel de detalle esperado en las columnas restantes.	Completar el ejemplo con las 7 columnas para que sirva de referencia real de formato.
+
+Puntuación total: 6/6
+
+Problemas principales
+El ejemplo de formato no cubre todas las columnas de la tabla, dejando ambigüedad sobre el detalle esperado en "Tecnologías", "Fortalezas", "Limitaciones" y "Qué podemos aprender".
+No se define una extensión máxima para el análisis textual posterior a la tabla, lo que puede producir respuestas innecesariamente largas.
+No se exige una antigüedad mínima/máxima de las fuentes, lo que podría traer información desactualizada como "verificada".
+No se especifica el idioma de respuesta de forma explícita (se infiere por el idioma del prompt, pero conviene declararlo).
+Algunas restricciones son redundantes (varias apuntan a "no inventar datos") y podrían consolidarse para mayor claridad.
+
+PROMPT MEJORADO:
+Actúa como analista de negocios y analista de productos digitales senior, especializado en aplicaciones web y comercio electrónico.
+
+CONTEXTO:
+Somos un equipo de 3 estudiantes de Ingeniería de Sistemas de UNIMINUTO Ibagué. Tenemos 12 semanas efectivas para desarrollar un proyecto académico.
+
+Nuestro proyecto consiste en desarrollar una aplicación web capaz de analizar la intención de compra de los usuarios de una tienda virtual a partir de su comportamiento de navegación (productos visitados, clics, tiempo de navegación, productos agregados al carrito, entre otras variables disponibles). El objetivo es identificar patrones y estimar si un usuario presenta una intención de compra baja, media o alta.
+
+El MVP contempla:
+- Cargar o utilizar datos de comportamiento de navegación.
+- Procesar y preparar los datos.
+- Identificar variables relevantes.
+- Utilizar un modelo de aprendizaje automático.
+- Estimar el nivel de intención de compra.
+- Mostrar los resultados en una interfaz web mediante tablas y gráficos.
+
+TAREA:
+Realiza un análisis competitivo de 3 soluciones, aplicaciones, plataformas o proyectos reales y verificables (académicos, open source o comerciales) que tengan relación directa con el análisis del comportamiento de usuarios, analítica de comercio electrónico, o predicción/estimación de intención de compra mediante datos.
+
+FORMATO:
+Responde en español. Entrega una tabla Markdown con las siguientes columnas:
+
+| Competidor/Solución | Qué hace | Relación con nuestro proyecto | Tecnologías o enfoque conocido | Fortalezas | Limitaciones | Qué podemos aprender |
+
+Después de la tabla, agrega (máximo 400 palabras en total):
+1. Principales diferencias entre esas soluciones y nuestro proyecto.
+2. Tres oportunidades de diferenciación técnica para nuestro MVP.
+3. Tres riesgos que debemos considerar al comparar nuestro proyecto con estas soluciones.
+
+RESTRICCIONES:
+- Usa únicamente soluciones reales y verificables; no inventes nombres, funcionalidades, tecnologías ni datos.
+- Prioriza fuentes de los últimos 3-5 años; si usas fuentes más antiguas, indícalo.
+- Si tienes acceso a búsqueda web, cita fuentes o enlaces verificables. Si no puedes verificar un dato, márcalo como "No verificado".
+- Enfócate exclusivamente en aspectos funcionales y técnicos relacionados con comportamiento de navegación e intención de compra; no incluyas marketing, precios ni rentabilidad.
+- No propongas funcionalidades fuera del alcance del MVP descrito.
+- Diferencia claramente entre información verificada y conclusiones propias.
+
+EJEMPLO DEL NIVEL ESPERADO (no usar como competidor real, solo como referencia de formato y nivel de detalle):
+
+| Competidor/Solución | Qué hace | Relación con nuestro proyecto | Tecnologías o enfoque conocido | Fortalezas | Limitaciones | Qué podemos aprender |
+|---|---|---|---|---|---|---|
+| Ejemplo verificable | Describe brevemente su función principal | Explica qué relación tiene con el análisis de comportamiento e intención de compra | Menciona el enfoque técnico o herramientas conocidas (ej. modelo, arquitectura) | Señala 1-2 puntos fuertes relevantes | Señala 1-2 limitaciones relevantes | Indica una lección aplicable a nuestro MVP |
+Cambios realizados
+
+Se completó el ejemplo con las 7 columnas, se añadió límite de extensión (400 palabras) y antigüedad de fuentes (3-5 años), y se declaró explícitamente el idioma de respuesta. El resto del prompt se conservó por estar ya bien construido.
