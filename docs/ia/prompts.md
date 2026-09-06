@@ -409,3 +409,7 @@ EJEMPLO DEL NIVEL ESPERADO (no usar como competidor real, solo como referencia d
 Cambios realizados
 
 Se completó el ejemplo con las 7 columnas, se añadió límite de extensión (400 palabras) y antigüedad de fuentes (3-5 años), y se declaró explícitamente el idioma de respuesta. El resto del prompt se conservó por estar ya bien construido.
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+PROMPT 04 — REFINAMIENTO DEL DOCUMENTO DE VISIÓN
+
