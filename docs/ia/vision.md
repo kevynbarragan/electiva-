@@ -27,6 +27,8 @@ Selección de las variables que resulten relevantes para el análisis de intenci
 Construcción o aplicación de un modelo de aprendizaje automático sobre dichas variables.
 Clasificación de cada usuario en uno de tres niveles: baja, media o alta intención de compra.
 Despliegue de los resultados en una interfaz web, con apoyo de tablas y gráficos.
+
+
 6. Alcance del MVP
 Carga o utilización de un conjunto de datos de navegación.
 Procesamiento y preparación de los datos.
@@ -35,6 +37,8 @@ Desarrollo y/o aplicación de un modelo de aprendizaje automático.
 Estimación de la intención de compra en tres niveles: baja, media, alta.
 Visualización de los resultados en una aplicación web.
 Presentación de resultados mediante tablas y gráficos básicos.
+
+
 7. Fuera del alcance
 Procesamiento de pagos o integración con pasarelas de pago.
 Generación de recomendaciones personalizadas de productos.
@@ -43,16 +47,22 @@ Incorporación de un módulo de chat o mensajería.
 Sistema de notificaciones para usuarios o administradores.
 Cualquier funcionalidad de inteligencia artificial adicional que no esté directamente relacionada con la estimación de intención de compra definida en el MVP.
 [SUPUESTO] Conexión en tiempo real con una tienda virtual activa; se asume trabajo sobre un conjunto de datos ya existente o simulado, pues el contexto no indica que el sistema deba operar sobre tráfico en vivo.
+
+
 8. Beneficios esperados
 Un conjunto de datos de navegación, antes disperso, queda organizado y disponible para análisis.
 Se obtiene una clasificación concreta (baja, media, alta) del nivel de intención de compra para los usuarios analizados.
 Los resultados quedan disponibles en un formato visual (tablas y gráficos) que facilita su lectura e interpretación.
 El equipo obtiene un producto académico que evidencia la aplicación práctica de un modelo de aprendizaje automático sobre un problema de comportamiento de usuario.
+
+
 9. Supuestos
 [SUPUESTO] El desarrollo se apoyará en un conjunto de datos de navegación ya disponible (por ejemplo, un dataset público), ya que el contexto no precisa su origen.
 [SUPUESTO] El equipo posee las bases necesarias en desarrollo web y aprendizaje automático para completar el MVP dentro de las 12 semanas.
 [SUPUESTO] La prioridad del proyecto está en el análisis y la correcta visualización de resultados, más que en un diseño visual elaborado.
 [SUPUESTO] La evaluación del proyecto se hará en un contexto académico, no como un sistema desplegado con usuarios reales.
+
+
 10. Preguntas abiertas
 ¿El conjunto de datos de navegación será proporcionado, público, o el equipo deberá construirlo/simularlo?
 ¿Qué variables estarán realmente disponibles en los datos (tiempo de navegación exacto, número de clics, historial detallado) y con qué granularidad?
