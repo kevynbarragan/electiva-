@@ -515,3 +515,64 @@ Se marcó explícitamente como [SUPUESTO] el enfoque de modelado (supervisado vs
 Se agregó una nota en la sección de usuarios objetivo señalando la necesidad de priorizar una audiencia, en lugar de dejarlo implícito.
 Se añadió el supuesto sobre la existencia (o construcción) de un criterio de etiquetado, antes ausente pero necesario para el modelo.
 No se agregaron ni eliminaron funcionalidades del alcance; solo se reforzó la trazabilidad de los supuestos y se mantuvo intacta la estructura original del documento.
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+PROMPT 05 — DETECCIÓN DE VACÍOS Y RIESGOS DEL PROYECTO
+
+Actúa como arquitecto de software y analista de riesgos técnicos senior.
+
+CONTEXTO:
+Somos un equipo de 3 estudiantes de Ingeniería de Sistemas de UNIMINUTO Ibagué.
+
+Tenemos 12 semanas efectivas para desarrollar una aplicación web que analice la intención de compra en una tienda virtual a partir del comportamiento de navegación.
+
+El sistema utilizará datos como productos visitados, clics, tiempo de navegación, productos agregados al carrito y otras variables disponibles.
+
+El MVP contempla:
+- Cargar o utilizar datos de navegación.
+- Procesar los datos.
+- Identificar variables relevantes.
+- Entrenar y evaluar un modelo de aprendizaje automático.
+- Estimar intención de compra baja, media o alta.
+- Mostrar resultados mediante una interfaz web.
+
+DOCUMENTO ACTUAL:
+###
+[PEGAR AQUÍ EL DOCUMENTO DE VISIÓN O ANÁLISIS COMPETITIVO]
+###
+
+TAREA:
+Identifica los vacíos de información, supuestos y riesgos técnicos que podrían impedir que el MVP sea desarrollado correctamente.
+
+FORMATO:
+Entrega una tabla Markdown:
+
+| ID | Riesgo o vacío | Por qué importa | Impacto | Cómo verificarlo | Acción recomendada |
+
+Utiliza únicamente estas categorías de impacto:
+- Alto
+- Medio
+- Bajo
+
+Después de la tabla incluye:
+
+## 1. Información crítica que todavía necesitamos
+Máximo 5 puntos.
+
+## 2. Riesgos que debemos resolver primero
+Máximo 5 puntos.
+
+## 3. Preguntas para el equipo
+Máximo 5 preguntas.
+
+RESTRICCIONES:
+- Enfócate únicamente en alcance, datos y riesgos técnicos.
+- No incluyas marketing ni finanzas.
+- No inventes información sobre nuestro dataset.
+- Si no existe información suficiente para determinar algo, indícalo como "No confirmado".
+- No propongas soluciones técnicamente innecesariamente complejas.
+- No desarrolles código.
+- No asumas que un modelo de Machine Learning funcionará correctamente hasta disponer de datos adecuados.
+
+EJEMPLO:
+Si desconocemos si el dataset contiene suficientes registros de usuarios que compraron, no afirmes que existe un problema de desbalance; registra que el nivel de desbalance es "No confirmado" y explica cómo verificarlo.
